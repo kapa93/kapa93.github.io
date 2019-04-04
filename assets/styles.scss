@@ -135,6 +135,10 @@ body {
 		right: 50px;
 		height: auto;
 		visibility: hidden;
+
+		@media screen and (max-width: 768px) {
+			width: 150px;
+		}
 	}
 
 	.zilla {
@@ -158,6 +162,17 @@ body {
 		right: 175px;
 		width: 150px;
 		height: 100px;
+
+		@media screen and (max-width: 768px) {
+			right: 150px;
+			bottom: 175px;
+		}
+	}
+
+	video#skating {
+		@media screen and (max-width: 768px) {
+			width: 325px !important;
+		}
 	}
 
 	/* Safari 4.0 - 8.0 */

@@ -101,6 +101,9 @@ body {
     right: 50px;
     height: auto;
     visibility: hidden; }
+    @media screen and (max-width: 768px) {
+      body figure.jumpzilla {
+        width: 150px; } }
   body .zilla {
     -webkit-animation-name: appear;
     /* Safari 4.0 - 8.0 */
@@ -120,6 +123,13 @@ body {
     right: 175px;
     width: 150px;
     height: 100px; }
+    @media screen and (max-width: 768px) {
+      body .bubble-wrap {
+        right: 150px;
+        bottom: 175px; } }
+  @media screen and (max-width: 768px) {
+    body video#skating {
+      width: 325px !important; } }
 @-webkit-keyframes appear {
   from {
     right: -250px; }
