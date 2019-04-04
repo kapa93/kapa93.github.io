@@ -1,0 +1,226 @@
+body {
+	font-family: 'Open Sans', sans-serif !important;
+
+	.main-intro {
+	  background: #2986BE;
+	  background-image: linear-gradient(-150deg, #00C1B6 0%, #136EB5 97%);
+	  background-size: cover;
+	  background-position: center bottom;
+	  justify-content: center;
+	  height: 100vh;
+
+	  h1 {
+	  	color: #fff;
+	  	margin-bottom: 1rem !important;
+	  	font-weight: 300;
+	  }
+
+	  .intro-text {
+	  	color: #fff;
+	  	font-size: 18px;
+	  	cursor: default;
+	  }
+
+	  .social-icons {
+	  	margin-bottom: 1.5rem;
+
+	  	a {
+	  		text-decoration: none !important;
+	  	}
+
+	  	svg {
+	  		color: #fff;
+	  		text-decoration: none !important;
+	  		font-size: 21px;
+	  		margin-right: 15px;
+	  	}
+	  }
+	}
+
+	a {
+		color: #fff !important;
+		text-decoration: underline;
+	}
+
+	#skateboarding {
+		text-decoration: underline;
+	}
+
+	.tooltip {
+	  position: relative;
+	  display: inline-block;
+	  text-decoration: underline;
+	  cursor: default;
+	}
+
+	.tooltip .tooltiptext {
+	  visibility: hidden;
+	  background-color: #fff;
+	  color: #fff;
+	  text-align: center;
+	  border-radius: 4px;
+	  padding: 5px 0 0 0;
+	  width: 210px;
+	  height: 280px;
+	  position: absolute;
+	  z-index: 1;
+	  top: 150%;
+	  left: 50%;
+	  margin-left: -105px;
+	}
+
+	.tooltip .tooltiptext::after {
+	  content: "";
+	  position: absolute;
+	  bottom: 100%;
+	  left: 50%;
+	  margin-left: -5px;
+	  border-width: 5px;
+	  border-style: solid;
+	  border-color: transparent transparent white transparent;
+	}
+
+	.tooltip-img {
+		border-radius: 4px;
+		margin-top: -5px;
+	}
+
+	.tooltip:hover .tooltiptext {
+	  visibility: visible;
+	}
+
+
+	.tooltip2 {
+	  position: relative;
+	  display: inline-block;
+	  text-decoration: underline;
+	  cursor: pointer;
+	}
+
+	.tooltip2 .tooltiptext2 {
+	  visibility: hidden;
+	  width: 120px;
+	  background-color: black;
+	  color: #fff;
+	  font-size: 14px;
+	  text-align: center;
+	  border-radius: 4px;
+	  padding: 5px 10px;
+	  position: absolute;
+	  z-index: 1;
+	  top: 150%;
+	  left: 50%;
+	  margin-left: -60px;
+	}
+
+	.tooltip2 .tooltiptext2::after {
+	  content: "";
+	  position: absolute;
+	  bottom: 100%;
+	  left: 50%;
+	  margin-left: -5px;
+	  border-width: 5px;
+	  border-style: solid;
+	  border-color: transparent transparent black transparent;
+	}
+
+	.tooltip2:hover .tooltiptext2 {
+	  visibility: visible;
+	}
+
+	figure.jumpzilla {
+		position: fixed;
+		bottom: 35px;
+		width: 200px;
+		right: 50px;
+		height: auto;
+		visibility: hidden;
+	}
+
+	.zilla {
+	  -webkit-animation-name: appear; /* Safari 4.0 - 8.0 */
+	  -webkit-animation-duration: .75s; /* Safari 4.0 - 8.0 */
+	  animation-name: appear;
+	  animation-duration: .75s;
+	  animation-iteration-count: 1;
+	  animation-timing-function: ease;
+	}
+
+	#second {
+		display: none;
+		margin-left: -7px;
+	}
+
+	.bubble-wrap {
+		position: fixed;
+		display: none;
+		bottom: 255px;
+		right: 175px;
+		width: 150px;
+		height: 100px;
+	}
+
+	/* Safari 4.0 - 8.0 */
+	@-webkit-keyframes appear {
+	  from {right: -250px;}
+	  to {right: 50px;}
+	}
+
+	/* Standard syntax */
+	@keyframes appear {
+	  from {right: -250px;}
+	  to {right: 50px;}
+	}
+
+	.speech-bubble {
+		position: relative;
+		background: #fff;
+		border-radius: 50%;
+		height: 75px;
+
+		h1 {
+			position: relative;
+		  top: 24px;
+		  left: 33px;
+		  font-size: 18px;
+		}
+	}
+
+	.speech-bubble:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		width: 0;
+		height: 0;
+		border: 20px solid transparent;
+		border-top-color: #fff;
+		border-bottom: 0;
+		border-right: 0;
+		margin-left: 10px;
+		margin-bottom: -15px;
+	}
+
+	.modal {
+		.modal-content {
+			overflow: visible;
+		}
+
+		p.image {
+			overflow: visible;
+			padding-top: 20%;
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+

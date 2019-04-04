@@ -1,0 +1,162 @@
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  /* Safari 4.0 - 8.0 */
+  /* Standard syntax */ }
+  body .main-intro {
+    background: #2986BE;
+    background-image: linear-gradient(-150deg, #00C1B6 0%, #136EB5 97%);
+    background-size: cover;
+    background-position: center bottom;
+    justify-content: center;
+    height: 100vh; }
+    body .main-intro h1 {
+      color: #fff;
+      margin-bottom: 1rem !important;
+      font-weight: 300; }
+    body .main-intro .intro-text {
+      color: #fff;
+      font-size: 18px;
+      cursor: default; }
+    body .main-intro .social-icons {
+      margin-bottom: 1.5rem; }
+      body .main-intro .social-icons a {
+        text-decoration: none !important; }
+      body .main-intro .social-icons svg {
+        color: #fff;
+        text-decoration: none !important;
+        font-size: 21px;
+        margin-right: 15px; }
+  body a {
+    color: #fff !important;
+    text-decoration: underline; }
+  body #skateboarding {
+    text-decoration: underline; }
+  body .tooltip {
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+    cursor: default; }
+  body .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 0 0 0;
+    width: 210px;
+    height: 280px;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -105px; }
+  body .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent; }
+  body .tooltip-img {
+    border-radius: 4px;
+    margin-top: -5px; }
+  body .tooltip:hover .tooltiptext {
+    visibility: visible; }
+  body .tooltip2 {
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer; }
+  body .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px; }
+  body .tooltip2 .tooltiptext2::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent; }
+  body .tooltip2:hover .tooltiptext2 {
+    visibility: visible; }
+  body figure.jumpzilla {
+    position: fixed;
+    bottom: 35px;
+    width: 200px;
+    right: 50px;
+    height: auto;
+    visibility: hidden; }
+  body .zilla {
+    -webkit-animation-name: appear;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .75s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: appear;
+    animation-duration: .75s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease; }
+  body #second {
+    display: none;
+    margin-left: -7px; }
+  body .bubble-wrap {
+    position: fixed;
+    display: none;
+    bottom: 255px;
+    right: 175px;
+    width: 150px;
+    height: 100px; }
+@-webkit-keyframes appear {
+  from {
+    right: -250px; }
+  to {
+    right: 50px; } }
+@keyframes appear {
+  from {
+    right: -250px; }
+  to {
+    right: 50px; } }
+  body .speech-bubble {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    height: 75px; }
+    body .speech-bubble h1 {
+      position: relative;
+      top: 24px;
+      left: 33px;
+      font-size: 18px; }
+  body .speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #fff;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: 10px;
+    margin-bottom: -15px; }
+  body .modal .modal-content {
+    overflow: visible; }
+  body .modal p.image {
+    overflow: visible;
+    padding-top: 20%; }
+
+/*# sourceMappingURL=styles.css.map */
