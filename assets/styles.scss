@@ -166,6 +166,14 @@ body {
 		@media screen and (max-width: 768px) {
 			right: 150px;
 			bottom: 175px;
+			height: 90px;
+			width: 130px;
+		}
+
+		.speech-bubble {
+			h1 {
+				left: 25px;
+			}
 		}
 	}
 

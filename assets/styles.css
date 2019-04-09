@@ -126,7 +126,11 @@ body {
     @media screen and (max-width: 768px) {
       body .bubble-wrap {
         right: 150px;
-        bottom: 175px; } }
+        bottom: 175px;
+        height: 90px;
+        width: 130px; } }
+    body .bubble-wrap .speech-bubble h1 {
+      left: 25px; }
   @media screen and (max-width: 768px) {
     body video#skating {
       width: 325px !important; } }
