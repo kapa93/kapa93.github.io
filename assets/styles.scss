@@ -172,7 +172,9 @@ body {
 
 		.speech-bubble {
 			h1 {
-				left: 25px;
+				@media screen and (max-width: 768px) {
+					left: 25px;
+				}
 			}
 		}
 	}
