@@ -2,6 +2,10 @@ body {
   font-family: 'Open Sans', sans-serif !important;
   /* Safari 4.0 - 8.0 */
   /* Standard syntax */ }
+  @media screen and (min-width: 1088px) {
+    body .container {
+      max-width: 1152px;
+      width: 1152px; } }
   body .main-intro {
     background: #2986BE;
     background-image: linear-gradient(-150deg, #00C1B6 0%, #136EB5 97%);
